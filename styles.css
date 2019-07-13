@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+* {
+    box-sizing: border-box; 
+}
+.free-shipping {
+    background-color: rgb(32, 32, 32); 
+    color:white; 
+    padding: 10px; 
+    font-family: Raleway; 
+    font-size: 15px; 
+    
+}
+.top-navigation-bar {
+    text-align: center; 
+
+}
+#move-right {
+    float: right;
+    margin-right: 30px;  
+}
+#nobull-logo {
+    float: left;
+    width: 150px;
+    height:auto; 
+}
+
+ul {
+    list-style: none; 
+  
+}
+li { 
+    display: inline-block; 
+    padding: 30px; 
+    font-family: Raleway; 
+
+}
+#M-T-declaration { 
+    font-family: Raleway; 
+
+
+}
+.grid-wrapper {
+    display: grid; 
+    grid-template-columns: 400px 400px; 
+    grid-auto-flow: dense; 
+    grid-gap: 10px; 
+     
+}  
+
+.shoeimage {
+    display: block;  
+    width:375px; 
+    height:250px; 
+    padding-bottom: 40px; 
+    
+}
+.shoeimage * { 
+    position: absolute;  
+    width: 375px; 
+    height: 250px; 
+}
+.shoeimage iframe { 
+    visibility: hidden; 
+}
+/* css */ 
+.shoeimage:hover iframe {
+    visibility: visible; 
+}
+/* js 
+#bh-video.visible { 
+    visibility: visible; 
+}
+*/
+.shoe-title {
+    font-family: Raleway;
+    font-size: 18px; 
+    margin: 6px; 
+}
+.shoe-item-details {
+    font-family: Raleway; 
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+footer {
+    display: block; 
+    background-color: rgb(32, 32, 32);
+    text-align: center; 
+}
+#working-hard-message {
+    display: block; 
+    color: white;
+    font-family: Raleway; 
+    font-size: 28px; 
+    text-transform: uppercase;
+    font-weight: 600; 
+    padding: 30px; 
+
+    
+
+}
+.submit-email {
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 50px;
+
+}
+
+.submit-email input {
+    width: 250px; 
+    height: 35px; 
+    font-size: 20px; 
+}
+#sign-up { 
+    background-color: black; 
+    color: white; 
+    width: 100px; 
+    height: 35px; 
+}
