@@ -2,16 +2,28 @@
 * {
     box-sizing: border-box; 
 }
+
 .free-shipping {
+    position: fixed;
+    top: 0; 
+    width: 100%;
     background-color: rgb(32, 32, 32); 
     color:white; 
     padding: 10px; 
     font-family: Raleway; 
     font-size: 15px; 
+    z-index: 100;
     
 }
 .top-navigation-bar {
+    background-color: white; 
+    position: fixed;
+    width: 100%; 
+    top: 38px; 
     text-align: center; 
+    z-index: 99;
+    
+ 
 
 }
 #move-right {
@@ -19,6 +31,7 @@
     margin-right: 30px;  
 }
 #nobull-logo {
+    padding: 15px;
     float: left;
     width: 150px;
     height:auto; 
@@ -30,12 +43,13 @@ ul {
 }
 li { 
     display: inline-block; 
-    padding: 30px; 
+    padding: 15px; 
     font-family: Raleway; 
 
 }
 #M-T-declaration { 
     font-family: Raleway; 
+    margin-top: 150px; 
 
 
 }
@@ -66,11 +80,15 @@ li {
 .shoeimage:hover iframe {
     visibility: visible; 
 }
-/* js 
+/* js option
 #bh-video.visible { 
     visibility: visible; 
 }
 */
+.shoeimage.shadow {
+    box-shadow:rgb(53, 53, 165) 5px 5px 10px; 
+}
+
 .shoe-title {
     font-family: Raleway;
     font-size: 18px; 
@@ -101,12 +119,16 @@ li {
 
 /* Links inside the dropdown */
 .dropdown-content a {
+    cursor: pointer; 
     color: black;
-    padding: 12px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     display: block;
 }
 
+.dropdown-content a:hover { 
+    text-decoration: underline; 
+}
 
 
 footer {
